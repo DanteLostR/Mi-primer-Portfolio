@@ -186,7 +186,6 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .nav__logo,
@@ -200,7 +199,7 @@ img {
 }
 
 .nav__toggle {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     cursor: pointer;
 }
 
@@ -938,7 +937,8 @@ img {
 
 /**============== dispositivos pequeños ==============*/
 
-@media screen and ((min-device-width : 100px) and (max-device-width: 480px){
+@media screen and (max-width: 350px) {
+
     .container{
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
@@ -984,7 +984,7 @@ img {
 
 /**============== dispositivos medianos ==============*/
 
-@media screen and ((min-device-width: 481px) and (max-device-width : 767px)) {
+@media screen and (min-width: 568px) {
     .home__content{
         grid-template-columns: max-content 1fr 1fr;
     }
@@ -1013,7 +1013,7 @@ img {
     }
 }
 
-@media screen and ((min-device-width: 768px) and (max-device-width : 1023px)) {
+@media screen and (min-width: 768px) {
     .container{
         margin-left: auto;
         margin-right: auto;
@@ -1168,41 +1168,12 @@ img {
 
 /**============== dispositivos grandes ==============*/
 
-@media screen and (min-device-width: 1024px){
+@media screen and (min-width: 1024px){
     .header,
     .main,
     .footer__container{
         padding: 0;
     } 
-
-    /* .nav__item{
-        z-index: 1;
-        position: relative;
-        padding: 0.5rem 1rem;
-    }    
-    
-    .nav__item::before {
-        content: '';
-        z-index: -1;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: var(--first-color-lighter);
-        transform-origin: center top;
-        transform: scaleY(0);
-        transition: transform 0.25s ease-in-out;
-      }
-    
-    .nav__item:hover {
-        cursor: pointer;
-    }
-    
-    .nav__item:hover::before {
-        transform-origin: center bottom;
-        transform: scaleY(1);
-    } */
 
     .home__blob{
         width: 320px;
