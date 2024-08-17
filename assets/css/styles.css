@@ -503,31 +503,31 @@ img {
 }
 
 .skills__html {
-    width: 90%;
+    width: 80%;
 }
 
 .skills__css {
-    width: 80%;
+    width: 50%;
 }
 
 .skills__js {
-    width: 90%;
+    width: 20%;
 }
 
 .skills__react {
-    width: 90%;
+    width: 00%;
 }
 
 .skills__php {
-    width: 90%;
+    width: 10%;
 }
 
 .skills__node {
-    width: 80%;
+    width: 10%;
 }
 
 .skills__firebase {
-    width: 90%;
+    width: 10%;
 }
 
 .skills__python {
